@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2021-10-23T11:29:39.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="15.3.8" etag="1ZogxsxmbF22xt9fbed9" type="github"><diagram id="5vR2W5jtHqjlZG5Y0Qvx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-23T11:42:31.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="VmuUIFCxP7H1v5xy7Kk4" version="15.3.8" type="github">
+  <diagram id="5vR2W5jtHqjlZG5Y0Qvx" name="Page-1">
+    <mxGraphModel dx="432" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VinBKiA9v2uX0SWJ6lVB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VinBKiA9v2uX0SWJ6lVB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.3333333333335" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VinBKiA9v2uX0SWJ6lVB-1" value="початок" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VinBKiA9v2uX0SWJ6lVB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="VinBKiA9v2uX0SWJ6lVB-6" target="VinBKiA9v2uX0SWJ6lVB-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VinBKiA9v2uX0SWJ6lVB-6" value="&lt;div&gt;ввід x&lt;/div&gt;&lt;div&gt;ввід n&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="269" y="210" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VinBKiA9v2uX0SWJ6lVB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="VinBKiA9v2uX0SWJ6lVB-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="402" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VinBKiA9v2uX0SWJ6lVB-8" value="for (t = sin(x), i = 1, s = 0; i &amp;lt;= n; i++)" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="300" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VinBKiA9v2uX0SWJ6lVB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="VinBKiA9v2uX0SWJ6lVB-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="412" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VinBKiA9v2uX0SWJ6lVB-11" value="&lt;div&gt;s += t;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; t = Sin(t);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="440" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VinBKiA9v2uX0SWJ6lVB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="VinBKiA9v2uX0SWJ6lVB-15" target="VinBKiA9v2uX0SWJ6lVB-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="412" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VinBKiA9v2uX0SWJ6lVB-15" value="Вивести(&quot;Сума = &quot; + s);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="520" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VinBKiA9v2uX0SWJ6lVB-17" value="кінець" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="610" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
