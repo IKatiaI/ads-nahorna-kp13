@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T19:27:44.600Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="c5MnqkuSYToj6L48rBLI" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-14T20:04:33.485Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ykluGHU_00MdTLPpElkg" version="15.9.6" type="github">
   <diagram id="_CrB7jmD-zcUezFovFIp" name="Page-1">
-    <mxGraphModel dx="1600" dy="2260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="500" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -334,6 +334,27 @@
             <mxPoint y="1240" as="sourcePoint" />
             <mxPoint x="840" y="1240" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nzrLz13nqQp0oSJpw0R1-109" value="static (long, long) GetColumnInterval(long[,] A, long K)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="860" y="50" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nzrLz13nqQp0oSJpw0R1-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;endArrow=classic;endFill=1;" edge="1" parent="1" source="nzrLz13nqQp0oSJpw0R1-111" target="nzrLz13nqQp0oSJpw0R1-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzrLz13nqQp0oSJpw0R1-111" value="Початок" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1048.5" y="85" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nzrLz13nqQp0oSJpw0R1-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1093.5" y="230" as="targetPoint" />
+            <mxPoint x="1041" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzrLz13nqQp0oSJpw0R1-112" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;long from, to;&lt;/div&gt;&lt;div&gt;long M = A.GetLength(1);&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;strokeWidth=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="986" y="148" width="210" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="nzrLz13nqQp0oSJpw0R1-115" value="from = 0; from &amp;lt; M &amp;amp;&amp;amp; !Check(from, K); from++" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="892" y="230" width="400" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
