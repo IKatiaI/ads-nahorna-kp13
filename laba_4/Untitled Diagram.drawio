@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T19:47:48.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_wWCfjSgTeuLouSb1GCX" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-23T19:48:31.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="KXxqJBMI5lBVvRjb13-t" version="15.9.6" type="github">
   <diagram id="cAZcsh5Gasm24qDNnj0R" name="Page-1">
     <mxGraphModel dx="440" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -599,8 +599,8 @@
             <mxPoint x="137.5" y="1657" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkvn1Yk3bQo1fb0iyatj-161" value="&lt;div&gt;DLNode node = head.next;&lt;/div&gt;&lt;div&gt;&lt;span&gt;node.prev = tail;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;tail.next = node;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;return true;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="27.5" y="1557" width="120" height="70" as="geometry" />
+        <mxCell id="zkvn1Yk3bQo1fb0iyatj-161" value="&lt;div&gt;DLNode node = tail.prev;&lt;/div&gt;&lt;div&gt;node.next = head;&lt;/div&gt;&lt;div&gt;head.prev = node;&lt;/div&gt;&lt;div&gt;tail = node;&lt;/div&gt;&lt;div&gt;return true;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="27.5" y="1530" width="120" height="97" as="geometry" />
         </mxCell>
         <mxCell id="zkvn1Yk3bQo1fb0iyatj-162" value="кінець" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="1667" width="120" height="40" as="geometry" />
