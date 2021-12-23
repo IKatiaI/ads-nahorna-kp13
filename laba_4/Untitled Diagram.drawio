@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T19:33:41.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="TLLGJn-kWHVTzd9BYgN3" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-23T19:34:51.967Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="q03ChPdkjDIhGQ77kzqT" version="15.9.6" type="github">
   <diagram id="cAZcsh5Gasm24qDNnj0R" name="Page-1">
-    <mxGraphModel dx="518" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="629" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -237,6 +237,16 @@
         </mxCell>
         <mxCell id="zkvn1Yk3bQo1fb0iyatj-78" value="так" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="640" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zkvn1Yk3bQo1fb0iyatj-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" target="zkvn1Yk3bQo1fb0iyatj-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="735" as="sourcePoint" />
+            <mxPoint x="180" y="1152" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="1135" />
+              <mxPoint x="180" y="1135" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="zkvn1Yk3bQo1fb0iyatj-79" value="&lt;div&gt;node.next = node;&lt;/div&gt;&lt;div&gt;node.prev = node;&lt;/div&gt;&lt;div&gt;&lt;span&gt;tail = node;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="690" width="120" height="50" as="geometry" />
