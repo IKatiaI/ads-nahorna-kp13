@@ -1,0 +1,14 @@
+﻿<Window x:Class="Laboratorna1.Wind1Error"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laboratorna1"
+        mc:Ignorable="d"
+        Title="Помилка" Height="189.773" Width="327.273" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="НЕКОРЕКТНО ВВЕДЕНІ" HorizontalAlignment="Left" Height="39" Margin="35,43,0,0" VerticalAlignment="Top" Width="258" FontSize="22"/>
+        <Label Content="ДАНІ" HorizontalAlignment="Left" Height="39" Margin="117,87,0,0" VerticalAlignment="Top" Width="65" FontSize="22"/>
+
+    </Grid>
+</Window>
