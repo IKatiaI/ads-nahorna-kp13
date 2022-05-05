@@ -1,0 +1,6 @@
+<html>
+<head><title>Hello</title></head>
+<body>
+<p>This appears in the<i>browser</i>.</p>
+</body>
+</html>
