@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T02:48:57.712Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="oqu2JhjnHuA66uJOSkiy" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T02:50:14.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="5S1hTCTKosHgWUNdXIRC" version="18.1.3" type="github">
   <diagram id="1asJGj1rqI16sWYwbIdo" name="Page-1">
-    <mxGraphModel dx="1131" dy="1609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1980" dy="2815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2864,6 +2864,46 @@
         </mxCell>
         <mxCell id="4b5tRSgkWwR3QRLoH13e-580" value="кінець" style="ellipse;whiteSpace=wrap;html=1;rounded=1;sketch=0;fontSize=12;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="4563.58" y="682.5" width="95.35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-582" value="public string getRoomType()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="4803.5" y="127.5" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-583" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=24;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=0;strokeWidth=1;" edge="1" source="4b5tRSgkWwR3QRLoH13e-584" target="4b5tRSgkWwR3QRLoH13e-586" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4943.5" y="252.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-584" value="Початок" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="4901" y="182.5" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-585" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=12;endArrow=classic;endFill=0;" edge="1" source="4b5tRSgkWwR3QRLoH13e-586" target="4b5tRSgkWwR3QRLoH13e-587" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-586" value="return&amp;nbsp;roomType" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontSize=24;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="4843.25" y="273.75" width="199" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-587" value="кінець" style="ellipse;whiteSpace=wrap;html=1;rounded=1;sketch=0;fontSize=12;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="4895.83" y="362.5" width="95.35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-588" value="override public string ToString()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="4838.5" y="432.5" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-589" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=24;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=0;strokeWidth=1;" edge="1" source="4b5tRSgkWwR3QRLoH13e-590" target="4b5tRSgkWwR3QRLoH13e-592" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4993.5" y="557.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-590" value="Початок" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="4951" y="487.5" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-591" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontSize=12;endArrow=classic;endFill=0;" edge="1" source="4b5tRSgkWwR3QRLoH13e-592" target="4b5tRSgkWwR3QRLoH13e-593" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-592" value="return&amp;nbsp;$&quot;Booking {key}. Guest {mainGuestName}. Room &#39;{roomType}&#39;&quot;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontSize=17;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="4879.76" y="575" width="227.5" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-593" value="кінець" style="ellipse;whiteSpace=wrap;html=1;rounded=1;sketch=0;fontSize=12;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="4945.83" y="667.5" width="95.35" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
