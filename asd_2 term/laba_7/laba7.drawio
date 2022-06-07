@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T01:05:48.218Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="oMSgBEFfQJbrC3pqf0t2" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T01:10:57.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="AidEPKIFTQyFjZHCeOrc" version="18.1.3" type="github">
   <diagram id="1asJGj1rqI16sWYwbIdo" name="Page-1">
-    <mxGraphModel dx="466" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="660" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1511,6 +1511,82 @@
         </mxCell>
         <mxCell id="4b5tRSgkWwR3QRLoH13e-144" value="кінець" style="ellipse;whiteSpace=wrap;html=1;rounded=1;sketch=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="2604.591551724138" y="3075" width="95.35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-172" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;public Value(string mainGuestName, int numberOfGuests, &lt;br style=&quot;font-size: 20px;&quot;&gt;string roomType, Date dateOfArrival, int numberOfNights)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2773.2500000000005" y="2790" width="530" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=24;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=0;strokeWidth=1;" edge="1" source="4b5tRSgkWwR3QRLoH13e-174" target="4b5tRSgkWwR3QRLoH13e-180" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3058.31" y="2974.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-174" value="Початок" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="3015.8100000000004" y="2885" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-178" value="ТАК" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;endArrow=classicThin;endFill=0;strokeWidth=1;" edge="1" source="4b5tRSgkWwR3QRLoH13e-180" parent="1" target="4b5tRSgkWwR3QRLoH13e-181">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2903.31" y="3075" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-179" value="НІ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;endArrow=classic;endFill=0;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="4b5tRSgkWwR3QRLoH13e-180" parent="1" target="4b5tRSgkWwR3QRLoH13e-188">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3210.666666666667" y="3092.4999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-180" value="numberOfNights &amp;lt; 1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;sketch=0;fontFamily=Helvetica;fontSize=15;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2976.66" y="2970" width="163.31" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=1;endArrow=classic;endFill=0;strokeWidth=1;" edge="1" parent="1" source="4b5tRSgkWwR3QRLoH13e-181">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3300" y="3480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2933" y="3390" />
+              <mxPoint x="3300" y="3390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-181" value="throw new ArgumentException($&quot;Number of nights can&#39;t be less then 1: {numberOfNights}&quot;);" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="2814.81" y="3060" width="236.69" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-186" value="ТАК" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;endArrow=classicThin;endFill=0;strokeWidth=1;" edge="1" source="4b5tRSgkWwR3QRLoH13e-188" parent="1" target="4b5tRSgkWwR3QRLoH13e-189">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3090" y="3210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-187" value="НІ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;endArrow=classic;endFill=0;strokeWidth=1;" edge="1" source="4b5tRSgkWwR3QRLoH13e-188" parent="1" target="4b5tRSgkWwR3QRLoH13e-190">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3410" y="3210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-188" value="numberOfGuests &amp;lt; 1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;sketch=0;fontFamily=Helvetica;fontSize=18;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3161.5" y="3115" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=1;endArrow=classic;endFill=0;strokeWidth=1;" edge="1" parent="1" source="4b5tRSgkWwR3QRLoH13e-189" target="4b5tRSgkWwR3QRLoH13e-195">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3300" y="3480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3134" y="3390" />
+              <mxPoint x="3300" y="3390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-189" value="throw new ArgumentException($&quot;Number of nights can&#39;t be less then 1: {numberOfGuests}&quot;);" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="3013.68" y="3230" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=1;endArrow=classic;endFill=0;strokeWidth=1;" edge="1" parent="1" source="4b5tRSgkWwR3QRLoH13e-190">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3300" y="3480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3511" y="3390" />
+              <mxPoint x="3300" y="3390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-190" value="&lt;div&gt;this.mainGuestName = mainGuestName;&lt;/div&gt;&lt;div&gt;&amp;nbsp; this.numberOfGuests = numberOfGuests;&lt;/div&gt;&lt;div&gt;&amp;nbsp;this.roomType = roomType;&lt;/div&gt;&lt;div&gt;&amp;nbsp;this.dateOfArrival = dateOfArrival;&lt;/div&gt;&lt;div&gt;&amp;nbsp;this.numberOfNights = numberOfNights;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="3351.5" y="3210" width="318.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4b5tRSgkWwR3QRLoH13e-195" value="кінець" style="ellipse;whiteSpace=wrap;html=1;rounded=1;sketch=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="3252.325" y="3465" width="95.35" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
