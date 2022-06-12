@@ -1,0 +1,42 @@
+﻿<Window x:Class="praktuchna_3.UserFormWPF"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:praktuchna_3"
+        mc:Ignorable="d"
+        Title="UserFormWPF" Height="450" Width="800">
+    <Grid>
+        <Label Content="Аутентифікація користувача" FontSize="20" HorizontalAlignment="Left" Height="34" Margin="58,27,0,0" VerticalAlignment="Top" Width="290"/>
+        <Label Content="Логін користувача" HorizontalAlignment="Left" Height="29" Margin="25,79,0,0" VerticalAlignment="Top" Width="152"/>
+        <TextBox x:Name="login_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="182,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" />
+        <Button x:Name="exit_bt" Content="Вийти з системи" HorizontalAlignment="Left" Height="23" Margin="205,160,0,0" VerticalAlignment="Top" Width="111" Click="exit_bt_Click"/>
+        <Label Content="Пароль користувача" HorizontalAlignment="Left" Height="29" Margin="25,113,0,0" VerticalAlignment="Top" Width="152"/>
+        <PasswordBox x:Name="password_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="182,113,0,0" VerticalAlignment="Top" Width="166" />
+        <Button x:Name="authorize_bt" Content="Авторизуватись" HorizontalAlignment="Left" Height="23" Margin="58,160,0,0" VerticalAlignment="Top" Width="111" Click="authorize_bt_Click"/>
+        <Label Content="Зміна данних користувача" FontSize="20" HorizontalAlignment="Left" Height="34" Margin="58,202,0,0" VerticalAlignment="Top" Width="290"/>
+        <Label Content="Ім'я користувача" HorizontalAlignment="Left" Height="29" Margin="25,242,0,0" VerticalAlignment="Top" Width="152"/>
+        <TextBox x:Name="user_Name_Update_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="182,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" />
+        <Label Content="Прізвище користувача" HorizontalAlignment="Left" Height="29" Margin="25,276,0,0" VerticalAlignment="Top" Width="152"/>
+        <TextBox x:Name="user_Surname_Update_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="182,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" />
+        <Label Content="Новий пароль" HorizontalAlignment="Left" Height="29" Margin="25,314,0,0" VerticalAlignment="Top" Width="152"/>
+        <PasswordBox x:Name="Password_Reg_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="574,174,0,0"  VerticalAlignment="Top" Width="166" />
+        <Label Content="Порторити новий пароль" HorizontalAlignment="Left" Height="29" Margin="25,348,0,0" VerticalAlignment="Top" Width="152"/>
+        <PasswordBox x:Name="Password_Repeat_Reg_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="574,208,0,0"  VerticalAlignment="Top" Width="166" />
+        <Button x:Name="change_password_bt" Content="Оновити дані" HorizontalAlignment="Left" Height="23" Margin="127,382,0,0" VerticalAlignment="Top" Width="111" Click="update_user_data_bt_Click"/>
+        <Label Content="Реєстрація нового користувача" FontSize="20" HorizontalAlignment="Left" Height="34" Margin="436,27,0,0" VerticalAlignment="Top" Width="304"/>
+        <Label Content="Ім'я користувача" HorizontalAlignment="Left" Height="29" Margin="416,71,0,0" VerticalAlignment="Top" Width="152"/>
+        <TextBox x:Name="user_Name_Reg_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="574,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" />
+        <Label Content="Прізвище користувача" HorizontalAlignment="Left" Height="29" Margin="416,105,0,0" VerticalAlignment="Top" Width="152"/>
+        <TextBox x:Name="user_Surname_Reg_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="574,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" />
+        <Label Content="Пароль користувача" HorizontalAlignment="Left" Height="29" Margin="417,174,0,0" VerticalAlignment="Top" Width="152"/>
+        <Label Content="Поврторити пароль" HorizontalAlignment="Left" Height="29" Margin="417,208,0,0" VerticalAlignment="Top" Width="152"/>
+        <Button x:Name="register_bt" Content="Зареєструватись" HorizontalAlignment="Left" Height="23" Margin="506,254,0,0" VerticalAlignment="Top" Width="111" Click="register_bt_Click"/>
+        <Label Content="Логін користувача" HorizontalAlignment="Left" Height="29" Margin="416,140,0,0" VerticalAlignment="Top" Width="152"/>
+        <TextBox x:Name="user_login_Reg_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="574,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" />
+        <Button x:Name="close_window_bt" Content="Закрити режим користувача" HorizontalAlignment="Left" Height="23" Margin="619,387,0,0" VerticalAlignment="Top" Width="165" Click="Button_Click"/>
+        <PasswordBox x:Name="Password_Update_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="182,314,0,0"  VerticalAlignment="Top" Width="166" />
+        <PasswordBox x:Name="Password_Repeat_Update_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="182,348,0,0"  VerticalAlignment="Top" Width="166" />
+
+    </Grid>
+</Window>

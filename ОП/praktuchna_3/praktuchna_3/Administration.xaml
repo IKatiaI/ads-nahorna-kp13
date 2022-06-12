@@ -1,0 +1,48 @@
+﻿<Window x:Class="praktuchna_3.Administration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:praktuchna_3"
+        mc:Ignorable="d"
+        Title="Administration" Height="470.011" Width="748.4">
+    <Grid>
+        <DataGrid x:Name="users_grid" HorizontalAlignment="Left" Height="267" Margin="10,163,0,0" VerticalAlignment="Top" Width="239"/>
+        <Label Content="Перегляд користувачів списком" HorizontalAlignment="Left" Height="29" Margin="10,134,0,0" VerticalAlignment="Top" Width="239"/>
+        <Label Content="Введіть пароль адміністратора" HorizontalAlignment="Left" Height="29" Margin="10,10,0,0" VerticalAlignment="Top" Width="239"/>
+        <PasswordBox x:Name="authorise_password_tb" HorizontalAlignment="Left" FontSize="20" Height="34" Margin="10,44,0,0" VerticalAlignment="Top" Width="229" />
+        <Button x:Name="authorize_bt" Content="Авторизуватись" HorizontalAlignment="Left" Height="22" Margin="10,83,0,0" VerticalAlignment="Top" Width="229" Click="Button_Authorize"/>
+        <Label Content="Зміна паролю Адміністратора" FontSize="20" HorizontalAlignment="Left" Height="34" Margin="368,15,0,0" VerticalAlignment="Top" Width="290"/>
+        <Label Content="Введіть поточний пароль" HorizontalAlignment="Left" Height="29" Margin="298,67,0,0" VerticalAlignment="Top" Width="152"/>
+        <Label Content="Введіть новий пароль" HorizontalAlignment="Left" Height="29" Margin="574,67,0,0" VerticalAlignment="Top" Width="152"/>
+        <PasswordBox x:Name="current_password_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="298,101,0,0" VerticalAlignment="Top" Width="173" />
+        <PasswordBox x:Name="new_password_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="553,101,0,0" VerticalAlignment="Top" Width="173" />
+        <Label Content="Повторіть пароль" HorizontalAlignment="Left" Height="29" Margin="298,152,0,0" VerticalAlignment="Top" Width="115"/>
+        <PasswordBox x:Name="repeat_password_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="429,152,0,0" VerticalAlignment="Top" Width="173" />
+        <Button x:Name="change_password_bt" Content="Оновити" HorizontalAlignment="Left" Height="29" Margin="632,152,0,0" VerticalAlignment="Top" Width="94" Click="Button_ChangePassword"/>
+        <Label Content="Перегляд кожного користувача" HorizontalAlignment="Left" Height="24" Margin="298,199,0,0" VerticalAlignment="Top" Width="186"/>
+        <Label Content="Ім'я користувача" HorizontalAlignment="Left" Height="24" Margin="298,228,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label Content="Прізвище користувача" HorizontalAlignment="Left" Height="24" Margin="298,257,0,0" VerticalAlignment="Top" Width="136"/>
+        <Label Content="Логін" HorizontalAlignment="Left" Height="24" Margin="553,234,0,0" VerticalAlignment="Top" Width="49"/>
+        <Label Content="Статус" HorizontalAlignment="Left" Height="29" Margin="553,263,0,0" VerticalAlignment="Top" Width="49"/>
+        <Button x:Name="prev_user_bt" Content="Попередній" HorizontalAlignment="Left" Height="24" Margin="298,286,0,0" VerticalAlignment="Top" Width="94" Click="prev_user_bt_Click"/>
+        <Button x:Name="next_user_bt" Content="Наступний" HorizontalAlignment="Left" Height="24" Margin="632,286,0,0" VerticalAlignment="Top" Width="94" Click="next_user_bt_Click"/>
+        <Label Content="Обмеження на пароль" HorizontalAlignment="Left" Height="24" Margin="411,286,0,0" VerticalAlignment="Top" Width="137"/>
+        <Label Content="Додавання користувача" HorizontalAlignment="Left" Height="24" Margin="298,315,0,0" VerticalAlignment="Top" Width="152"/>
+        <TextBox x:Name="new_user_login_tb" HorizontalAlignment="Left" FontSize="20" Height="29" Margin="298,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" />
+        <Button x:Name="user_state_bt" Content="Встановити активність" HorizontalAlignment="Left" Height="19" Margin="595,353,0,0" VerticalAlignment="Top" Width="131" Click="user_status_bt_Click"/>
+        <Button x:Name="user_restriction_bt" Content="Встановити" HorizontalAlignment="Left" Height="18" Margin="656,377,0,0" VerticalAlignment="Top" Width="70" Click="user_restriction_bt_Click"/>
+        <Button x:Name="add_new_user_bt" Content="Додати користувача" HorizontalAlignment="Left" Height="24" Margin="298,377,0,0" VerticalAlignment="Top" Width="152" Click="add_new_user_bt_Click"/>
+        <Button x:Name="exit_bt" Content="Вийти з системи" HorizontalAlignment="Left" Height="24" Margin="298,406,0,0" VerticalAlignment="Top" Width="152" Click="exit_bt_Click"/>
+        <Button x:Name="close_window_bt" Content="Закрити вікно" HorizontalAlignment="Left" Height="24" Margin="493,406,0,0" VerticalAlignment="Top" Width="233" Click="Button_ReturnToMainWindow"/>
+        <Label Content="" HorizontalAlignment="Left" Height="24" Margin="493,199,0,0" VerticalAlignment="Top" Width="186"/>
+        <Label x:Name="user_name_lb" Content="" HorizontalAlignment="Left" Height="24" Margin="402,228,0,0" VerticalAlignment="Top" Width="146"/>
+        <Label x:Name="user_surname_lb" Content="" HorizontalAlignment="Left" Height="24" Margin="439,258,0,0" VerticalAlignment="Top" Width="114"/>
+        <Label x:Name="user_login_lb" Content="" HorizontalAlignment="Left" Height="24" Margin="602,234,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label x:Name="user_status_lb" FontSize="12" Content="" HorizontalAlignment="Left" Height="23" Margin="595,263,0,0" VerticalAlignment="Top" Width="119"/>
+        <Label x:Name="user_restriction_lb" Content="" HorizontalAlignment="Left" Height="26" Margin="553,292,0,0" VerticalAlignment="Top" Width="74"/>
+        <CheckBox x:Name="user_status_cb" Content="Статус" HorizontalAlignment="Left" Margin="493,355,0,0" VerticalAlignment="Top" Width="87" RenderTransformOrigin="0.559,2.25"/>
+        <CheckBox x:Name="user_restriction_cb" Content="Обмеження на пароль" HorizontalAlignment="Left" Margin="493,379,0,0" VerticalAlignment="Top" Width="149"/>
+
+    </Grid>
+</Window>
