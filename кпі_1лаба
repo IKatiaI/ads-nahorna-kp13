@@ -1,1 +1,157 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T20:06:14.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.4.1" etag="cmt4NsOMP2jVoEHZ5y23" type="github"><diagram id="0KCux4yqJX9KnuxglV5I">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-17T20:32:00.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ZR9vYuaQ4dy3T3gcyWGX" version="20.4.1" type="github">
+  <diagram id="0KCux4yqJX9KnuxglV5I" name="Страница 1">
+    <mxGraphModel dx="1221" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-1" value="Проблеми з ментальним здоров&#39;ям" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="540" y="500" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-2" value="Неконтрольоване сидіння у телефоні" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1096" y="456" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-3" value="Проблеми з тривожністю" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1096" y="706" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-4" value="Проблеми з плануванням" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="819" y="340" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-7" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DeZpVg0_TdbDM6xZDQic-1" target="DeZpVg0_TdbDM6xZDQic-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="547.5" as="sourcePoint" />
+            <mxPoint x="800" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-8" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0.967;exitY=0.004;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="DeZpVg0_TdbDM6xZDQic-1" target="DeZpVg0_TdbDM6xZDQic-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="557.5" as="sourcePoint" />
+            <mxPoint x="800" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-10" value="Проблеми з концентрацією" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1091" y="546" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-11" value="Перенавантаження інформацією" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="630" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-12" value="Телефон, як єдиний власний простір/ спосіб &quot;ігнорування&quot; реальності" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="814" y="480" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-13" value="Проблеми з фізичним самопочуттям" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="525" y="640" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-15" value="Проблеми зі сном&lt;br&gt;Постійно погане самопочуття" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="260" y="560" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DeZpVg0_TdbDM6xZDQic-15" target="DeZpVg0_TdbDM6xZDQic-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="522.5" as="sourcePoint" />
+            <mxPoint x="829" y="375" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-17" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DeZpVg0_TdbDM6xZDQic-15" target="DeZpVg0_TdbDM6xZDQic-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="582.5" as="sourcePoint" />
+            <mxPoint x="549.9999999999998" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-19" value="Прокрастинація" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="280" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-20" value="Проблеми з тайм менеджментом" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="350" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-21" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="DeZpVg0_TdbDM6xZDQic-4" target="DeZpVg0_TdbDM6xZDQic-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1029" y="340" as="sourcePoint" />
+            <mxPoint x="1098.9999999999998" y="267.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1040" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-23" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="DeZpVg0_TdbDM6xZDQic-12" target="DeZpVg0_TdbDM6xZDQic-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1034" y="490" as="sourcePoint" />
+            <mxPoint x="1098" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-24" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DeZpVg0_TdbDM6xZDQic-12" target="DeZpVg0_TdbDM6xZDQic-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1044" y="507.5" as="sourcePoint" />
+            <mxPoint x="1106" y="478.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="DeZpVg0_TdbDM6xZDQic-12" target="DeZpVg0_TdbDM6xZDQic-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1054" y="517.5" as="sourcePoint" />
+            <mxPoint x="1116" y="488.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1070" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-26" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="DeZpVg0_TdbDM6xZDQic-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="550" as="sourcePoint" />
+            <mxPoint x="1126" y="498.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-27" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DeZpVg0_TdbDM6xZDQic-4" target="DeZpVg0_TdbDM6xZDQic-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1039" y="350.0000000000001" as="sourcePoint" />
+            <mxPoint x="1110" y="302.5000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1070" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-28" value="зажатість у тілі" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="809" y="596" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-29" value="відсутність базової фізичної активності у житті людини" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="827" y="706" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-30" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0.964;exitY=-0.078;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DeZpVg0_TdbDM6xZDQic-13" target="DeZpVg0_TdbDM6xZDQic-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1044" y="542.5" as="sourcePoint" />
+            <mxPoint x="1100" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="756" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DeZpVg0_TdbDM6xZDQic-31" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DeZpVg0_TdbDM6xZDQic-13" target="DeZpVg0_TdbDM6xZDQic-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1054" y="552.5" as="sourcePoint" />
+            <mxPoint x="1110" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
