@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T21:26:34.154Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="d7TWibOhlFKuXMQpCPdO" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T21:32:35.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="9gZtMu6Dtq38OxrebkGF" version="20.4.1" type="github">
   <diagram id="vLU2srpepSG2zRiVjKGd" name="Страница 1">
-    <mxGraphModel dx="865" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1692" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GwWAnQ6F25cGUByC2Bfa-19" value="Лікарі" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=1;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="40" y="70" width="160" height="230" as="geometry" />
+          <mxGeometry x="40" y="70" width="160" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="GwWAnQ6F25cGUByC2Bfa-20" value="ID&#xa;Ім&#39;я&#xa;Прізвище&#xa;По-батькові&#xa;День народження&#xa;Телефон&#xa;Адреса&#xa;E-mail&#xa;Платіжна інформація&#xa;Зарплата&#xa;% від візиту" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=14;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=0" vertex="1" parent="GwWAnQ6F25cGUByC2Bfa-19">
-          <mxGeometry y="30" width="160" height="200" as="geometry" />
+        <mxCell id="GwWAnQ6F25cGUByC2Bfa-20" value="ID&#xa;Ім&#39;я&#xa;Прізвище&#xa;По-батькові&#xa;День народження&#xa;Телефон&#xa;Адреса&#xa;E-mail&#xa;Зарплата&#xa;% від візиту" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=14;verticalAlign=top;resizable=0;rotatable=0;part=1;fontStyle=0" vertex="1" parent="GwWAnQ6F25cGUByC2Bfa-19">
+          <mxGeometry y="30" width="160" height="190" as="geometry" />
         </mxCell>
         <mxCell id="GwWAnQ6F25cGUByC2Bfa-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" source="GwWAnQ6F25cGUByC2Bfa-26" target="GwWAnQ6F25cGUByC2Bfa-20">
           <mxGeometry relative="1" as="geometry">
@@ -137,14 +137,14 @@
         </mxCell>
         <mxCell id="GwWAnQ6F25cGUByC2Bfa-61" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0.685;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="327" as="sourcePoint" />
-            <mxPoint x="129.60000000000014" y="300.74" as="targetPoint" />
+            <mxPoint x="120" y="317" as="sourcePoint" />
+            <mxPoint x="129.60000000000014" y="290.74" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GwWAnQ6F25cGUByC2Bfa-62" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0.555;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="327" as="sourcePoint" />
-            <mxPoint x="108.79999999999995" y="301.0899999999999" as="targetPoint" />
+            <mxPoint x="120" y="317" as="sourcePoint" />
+            <mxPoint x="108.79999999999995" y="291.0899999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GwWAnQ6F25cGUByC2Bfa-64" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=-0.001;entryY=0.297;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
@@ -158,6 +158,21 @@
             <mxPoint x="50" y="440" as="sourcePoint" />
             <mxPoint x="70" y="450" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GwWAnQ6F25cGUByC2Bfa-67" value="проводить&lt;br&gt;&amp;nbsp;лікування" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="215" y="70" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GwWAnQ6F25cGUByC2Bfa-68" value="відвідує лікаря" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="85" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GwWAnQ6F25cGUByC2Bfa-69" value="надає &lt;br&gt;можливі послуги" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="434" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GwWAnQ6F25cGUByC2Bfa-70" value="показує які можливо надати послуги з якої спец." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="200" y="525" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GwWAnQ6F25cGUByC2Bfa-71" value="показує яка/які спец. &lt;br&gt;у якого лікаря" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="307" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
